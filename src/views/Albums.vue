@@ -19,7 +19,6 @@
                 {{ album.name }}
               </h5>
               <p class="card-text">{{ album.artist }}</p>
-              <p class="card-text">{{ album.date }}</p>
               <button
                 class="btn btn-primary text-green-600 mt-4 text-sm text-center"
                 @click="addToFavorites(album)"

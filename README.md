@@ -41,3 +41,23 @@ Please organize, design, test and document your code as if it were going into pr
 All the best and happy coding,
 
 The White Rabbit Japan Team
+
+
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
